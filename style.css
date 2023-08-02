@@ -1,0 +1,91 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.header{
+    background-image: url('./Assets/sebastian-svenson-LpbyDENbQQg-unsplash.jpg');
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+    height: 90vh;
+}
+
+
+.list{
+    position: fixed;
+    padding:23px 43px ;
+    z-index: 5;
+    width: 100%;
+    background: #106079b3;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    color: #f0f8ff;
+    font-family: 'Ubuntu';
+    justify-content: end;
+}
+
+.top-part{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.left-section h2 {
+    color: #640344;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Ubuntu';
+}
+
+.left-section h1{
+
+}
+
+.custom-shape-divider-bottom-1687364201 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1687364201 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 118px;
+}
+.custom-shape-divider-bottom-1687364201 .shape-fill {
+    fill:rgb(255, 249, 249);
+}
+
+.fake{
+    height: 500vh;
+}
+
+.left-section img{
+    border-radius: 10%;
+    background: rgb(247,148,150); background: linear-gradient(180deg, rgba(247,148,150,1) 0%, rgba(177,255,229,1) 55%, rgba(255,255,255,1) 100%);
+    padding: 5px;
+    height: 25rem;
+}
+
+
+

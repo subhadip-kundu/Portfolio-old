@@ -1,24 +1,27 @@
-*{
-    margin: 0;padding: 0;box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header{
+.header {
     background-image: url('./Assets/sebastian-svenson-LpbyDENbQQg-unsplash.jpg');
     position: relative;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     height: 90vh;
 }
 
 
-.list{
+.list {
     position: fixed;
-    padding:23px 43px ;
+    padding: 23px 43px;
     z-index: 5;
     width: 100%;
     background: #106079b3;
 }
-.list ul{
+
+.list ul {
     list-style: none;
     display: flex;
     gap: 25px;
@@ -27,12 +30,12 @@
     justify-content: end;
 }
 
-.top-part{
+.top-part {
     height: 100%;
     width: 100%;
 }
 
-.nav-home{
+.nav-home {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -40,11 +43,12 @@
     width: 100%;
 }
 
-.left-section{
+.left-section {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
+
 .left-section h2 {
     color: #640344;
     font-size: 1.25rem;
@@ -53,24 +57,25 @@
     font-family: 'Ubuntu';
 }
 
-.left-section h1{
+.left-section h1 {
     color: #74910f;
     font-family: 'Ubuntu';
 }
 
-.left-section h1 span{
+.left-section h1 span {
     color: #810228;
     font-size: 2.5rem;
 }
 
-#element{
-    color:#800080;
+#element {
+    color: #800080;
     font-size: 20px;
     font-weight: 500;
     font-family: 'Ubuntu';
 }
-.typed-cursor{
-    font-size:22px;
+
+.typed-cursor {
+    font-size: 22px;
     color: purple;
     padding: 3px;
 }
@@ -80,7 +85,7 @@
     gap: 3rem;
 }
 
-.main-btn button{
+.main-btn button {
     padding: .7rem 1.5rem;
     color: #f0ffff;
     border: none;
@@ -89,20 +94,18 @@
     font-size: 1.1rem;
 }
 
-.hire-btn{
+.hire-btn {
     background-color: #069c06;
 }
 
-.download-btn{
+.download-btn {
     background-color: #2688d8;
 }
 
-.download-btn a{
+.download-btn a {
     color: #fff;
     text-decoration: none;
 }
-
-
 
 
 .custom-shape-divider-bottom-1687364201 {
@@ -114,41 +117,50 @@
     line-height: 0;
     transform: rotate(180deg);
 }
+
 .custom-shape-divider-bottom-1687364201 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 118px;
 }
+
 .custom-shape-divider-bottom-1687364201 .shape-fill {
-    fill:rgb(255, 249, 249);
+    fill: rgb(255, 249, 249);
 }
 
-.fake{
+.fake {
     height: 500vh;
 }
 
-.left-section img{
+.left-section img {
     border-radius: 10%;
-    background: rgb(247,148,150); background: linear-gradient(180deg, rgba(247,148,150,1) 0%, rgba(177,255,229,1) 55%, rgba(255,255,255,1) 100%);
+    background: rgb(247, 148, 150);
+    background: linear-gradient(180deg, rgba(247, 148, 150, 1) 0%, rgba(177, 255, 229, 1) 55%, rgba(255, 255, 255, 1) 100%);
     padding: 5px;
     height: 25rem;
-    
+
 }
 
 
 /* About me section started */
 
-#about{
-    max-width: 1240px;
-    margin: 0 auto;
+.about-me-image {
+    margin-top: 1.3rem;
+    width: 65%;
 }
 
-.about-me-section{
+#about {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+
+}
+
+.about-me-section {
     font-family: 'Poppins', sans-serif;
 }
 
-.about-me-section p{
+.about-me-section p {
     font-size: 19px;
     font-weight: 400;
     color: #000000b5;
@@ -157,7 +169,7 @@
 
 .one-card h6 {
     font-size: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-family: ubuntu;
 }
 
@@ -179,10 +191,383 @@
     left: 0;
 }
 
-.one-card{
+.one-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
     margin-top: 1rem;
+}
+
+
+/* Episode two */
+
+.episode-two {
+    position: relative;
+    padding: 30px 0 50px 0;
+}
+
+.episode-two-card {
+    box-shadow: #63636333 0px 2px 8px 0px;
+    padding: 30px;
+    border-bottom: 2px solid rgb(229, 9, 20);
+    text-align: center;
+    transition: 0.5s all !important;
+    min-height: 265px;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    height: 15rem;
+}
+
+.episode-two-card figure {
+    max-width: 70px;
+    margin: 10px auto;
+}
+
+.episode-two-card h4 {
+    font-size: 1.15rem;
+    color: rgb(229, 9, 20);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.episode-two-card p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.episode-two-card:hover {
+    transform: scale(1.05);
+    border-color: #e50914;
+}
+
+
+/* Episode 3 */
+
+
+.episode-three {
+    position: relative;
+    padding: 40px 0 30px 0;
+    background: url(./Assets/background2.jpg) fixed no-repeat center / cover;
+}
+
+.three-card h2::after {
+    content: "";
+    position: absolute;
+    background: #e50914;
+    width: 3px;
+    height: 34px;
+    right: 130px;
+}
+
+.three-card h2 {
+    color: #e50914;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.three-card h5 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: ubuntu;
+}
+
+.three-card {
+    text-align: right;
+}
+
+.html-card {
+    box-shadow: #0000001a 0px 4px 6px -1px, #0000000f 0px 2px 4px -1px;
+    padding: 15px;
+    transition: 0.3s all;
+    background: #ffffffbd;
+    border-radius: 15px;
+    max-width: 300px;
+    margin: 0 auto 25px;
+}
+
+.html-card figure {
+    margin: 0 auto 10px;
+    max-width: 100px;
+}
+
+.sql-cls {
+    height: 100px;
+}
+
+
+
+/* Episode 4 */
+
+/* .hobby{
+    display: flex;
+    flex-direction: row;
+} */
+
+.black {
+    position: absolute;
+    inset: 0;
+    background: #000000bb;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    opacity: 0;
+    padding: 70px 30px;
+}
+
+.black p {
+    color: #fff;
+    font-size: 20px;
+    text-align: start;
+}
+
+.black h2 {
+    color: white;
+    font-family: 'Ubuntu';
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.hobbies-card:hover .black {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* Chapter 5 */
+
+.one-card ul li {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one-card ul li p {
+    color: #450565ee;
+    font-weight: 500;
+}
+
+.one-card ul li i {
+    color: green;
+}
+
+
+
+/* Chapter 6 */
+
+.episode-six {
+    position: relative;
+    padding: 50px 0px 70px 0;
+    background: url(./Assets/request-bg.jpg) fixed no-repeat center / cover;
+
+}
+
+.request-card {
+    padding: 25px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 15px;
+    background: white;
+    max-width: 1100px;
+    margin: auto;
+    color: #800080;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.request h6 {
+    color: #fff;
+}
+
+.special-respect {
+    font-weight: 600;
+}
+
+.request-card figure {
+    max-width: 100px;
+    margin: 0 auto 10px;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #090E16;
+    position: relative;
+    padding: 80px 0 15px 0;
+}
+
+.container {
+    max-width: 1520px;
+}
+
+.contact-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+#msg {
+    color: rgb(255, 255, 255);
+    font-family: ubuntu;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.contact-form {
+    position: relative;
+}
+
+.contact-form i {
+    position: absolute;
+    bottom: 15px;
+    left: 12px;
+    color: #00000085;
+}
+
+.contact-txt {
+    position: relative;
+}
+
+.contact-txt i {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    color: #0000006b;
+}
+
+.contact-form input[type=text] {
+    text-transform: capitalize;
+}
+
+.contact-form input {
+    margin-bottom: 25px;
+    height: 45px;
+    border-radius: 0;
+    font-weight: 500;
+    padding-left: 35px;
+    font-size: 17px;
+    border: none;
+    box-shadow: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    padding: 10px 10px 10px 35px;
+    font-size: 17px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.slct select {
+    height: 45px;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    box-shadow: none;
+}
+
+.contact-btn button {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.4s all;
+    letter-spacing: 1px;
+}
+
+.contact-btn button:hover {
+    background: white;
+    color: #e50914;
+}
+
+
+
+.contact-card h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+    font-family: ubuntu;
+    color: white;
+}
+
+.contact-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+.contact-card ul li i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.contact-card ul li a {
+    color: #ffffffa8;
+    text-decoration: none;
+}
+
+.contact-card ul li p {
+    color: #ffffffa8;
+    transition: 0.3s all;
+}
+
+/* Last footer */
+
+.footer-btm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid;
+    padding-top: 20px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.footer-btm h5 {
+    font-size: 15px;
+    color: #ffffff7a;
+    font-weight: 400;
+    border-right: 2px solid #ffffff33;
+    padding-right: 10px;
+}
+
+.footer-btm p {
+    font-size: 15px;
+    color: #ffffff7a;
+    font-weight: 400;
+    margin: auto;
+}
+
+.footer-btm h4 {
+    font-size: 15px;
+    color: #ffffff7a;
+    font-weight: 400;
+    border-left: 2px solid #ffffff33;
+    padding-left: 10px;
 }
